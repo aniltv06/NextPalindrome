@@ -718,6 +718,9 @@
                         <buttonCell key="cell" type="push" title="Get Next Palindrome" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8PR-ZZ-lvA">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
                         </buttonCell>
                         <connections>
                             <action selector="getNextPalindrome:" target="Voe-Tx-rLC" id="Kg2-La-uf8"/>
