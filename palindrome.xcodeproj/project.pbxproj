@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047A61C01CFF49810026C631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A61BF1CFF49810026C631 /* AppDelegate.m */; };
+		047A61C21CFF49810026C631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A61C11CFF49810026C631 /* main.m */; };
+		047A61C41CFF49810026C631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A61C31CFF49810026C631 /* Images.xcassets */; };
+		047A61C71CFF49810026C631 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047A61C51CFF49810026C631 /* MainMenu.xib */; };
+		047A61D31CFF49820026C631 /* palindromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A61D21CFF49820026C631 /* palindromeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047A61CD1CFF49820026C631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047A61B11CFF49810026C631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047A61B81CFF49810026C631;
+			remoteInfo = palindrome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047A61B91CFF49810026C631 /* palindrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palindrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A61BD1CFF49810026C631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A61BE1CFF49810026C631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047A61BF1CFF49810026C631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047A61C11CFF49810026C631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047A61C31CFF49810026C631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		047A61C61CFF49810026C631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		047A61CC1CFF49820026C631 /* palindromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palindromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A61D11CFF49820026C631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A61D21CFF49820026C631 /* palindromeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = palindromeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A61B61CFF49810026C631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A61C91CFF49820026C631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A61B01CFF49810026C631 = {
+			isa = PBXGroup;
+			children = (
+				047A61BB1CFF49810026C631 /* palindrome */,
+				047A61CF1CFF49820026C631 /* palindromeTests */,
+				047A61BA1CFF49810026C631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047A61BA1CFF49810026C631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A61B91CFF49810026C631 /* palindrome.app */,
+				047A61CC1CFF49820026C631 /* palindromeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A61BB1CFF49810026C631 /* palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				047A61BE1CFF49810026C631 /* AppDelegate.h */,
+				047A61BF1CFF49810026C631 /* AppDelegate.m */,
+				047A61C31CFF49810026C631 /* Images.xcassets */,
+				047A61C51CFF49810026C631 /* MainMenu.xib */,
+				047A61BC1CFF49810026C631 /* Supporting Files */,
+			);
+			path = palindrome;
+			sourceTree = "<group>";
+		};
+		047A61BC1CFF49810026C631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047A61BD1CFF49810026C631 /* Info.plist */,
+				047A61C11CFF49810026C631 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047A61CF1CFF49820026C631 /* palindromeTests */ = {
+			isa = PBXGroup;
+			children = (
+				047A61D21CFF49820026C631 /* palindromeTests.m */,
+				047A61D01CFF49820026C631 /* Supporting Files */,
+			);
+			path = palindromeTests;
+			sourceTree = "<group>";
+		};
+		047A61D01CFF49820026C631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047A61D11CFF49820026C631 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A61B81CFF49810026C631 /* palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A61D61CFF49820026C631 /* Build configuration list for PBXNativeTarget "palindrome" */;
+			buildPhases = (
+				047A61B51CFF49810026C631 /* Sources */,
+				047A61B61CFF49810026C631 /* Frameworks */,
+				047A61B71CFF49810026C631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = palindrome;
+			productName = palindrome;
+			productReference = 047A61B91CFF49810026C631 /* palindrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047A61CB1CFF49820026C631 /* palindromeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A61D91CFF49820026C631 /* Build configuration list for PBXNativeTarget "palindromeTests" */;
+			buildPhases = (
+				047A61C81CFF49820026C631 /* Sources */,
+				047A61C91CFF49820026C631 /* Frameworks */,
+				047A61CA1CFF49820026C631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047A61CE1CFF49820026C631 /* PBXTargetDependency */,
+			);
+			name = palindromeTests;
+			productName = palindromeTests;
+			productReference = 047A61CC1CFF49820026C631 /* palindromeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A61B11CFF49810026C631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Anil;
+				TargetAttributes = {
+					047A61B81CFF49810026C631 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					047A61CB1CFF49820026C631 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 047A61B81CFF49810026C631;
+					};
+				};
+			};
+			buildConfigurationList = 047A61B41CFF49810026C631 /* Build configuration list for PBXProject "palindrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047A61B01CFF49810026C631;
+			productRefGroup = 047A61BA1CFF49810026C631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A61B81CFF49810026C631 /* palindrome */,
+				047A61CB1CFF49820026C631 /* palindromeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A61B71CFF49810026C631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A61C41CFF49810026C631 /* Images.xcassets in Resources */,
+				047A61C71CFF49810026C631 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A61CA1CFF49820026C631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A61B51CFF49810026C631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A61C21CFF49810026C631 /* main.m in Sources */,
+				047A61C01CFF49810026C631 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A61C81CFF49820026C631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A61D31CFF49820026C631 /* palindromeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047A61CE1CFF49820026C631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047A61B81CFF49810026C631 /* palindrome */;
+			targetProxy = 047A61CD1CFF49820026C631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047A61C51CFF49810026C631 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A61C61CFF49810026C631 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047A61D41CFF49820026C631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		047A61D51CFF49820026C631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		047A61D71CFF49820026C631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = palindrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		047A61D81CFF49820026C631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = palindrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		047A61DA1CFF49820026C631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = palindromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/palindrome.app/Contents/MacOS/palindrome";
+			};
+			name = Debug;
+		};
+		047A61DB1CFF49820026C631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = palindromeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/palindrome.app/Contents/MacOS/palindrome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A61B41CFF49810026C631 /* Build configuration list for PBXProject "palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A61D41CFF49820026C631 /* Debug */,
+				047A61D51CFF49820026C631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A61D61CFF49820026C631 /* Build configuration list for PBXNativeTarget "palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A61D71CFF49820026C631 /* Debug */,
+				047A61D81CFF49820026C631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047A61D91CFF49820026C631 /* Build configuration list for PBXNativeTarget "palindromeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A61DA1CFF49820026C631 /* Debug */,
+				047A61DB1CFF49820026C631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A61B11CFF49810026C631 /* Project object */;
+}
