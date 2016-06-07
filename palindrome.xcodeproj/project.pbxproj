@@ -12,6 +12,7 @@
 		047A61C41CFF49810026C631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A61C31CFF49810026C631 /* Images.xcassets */; };
 		047A61C71CFF49810026C631 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047A61C51CFF49810026C631 /* MainMenu.xib */; };
 		047A61D31CFF49820026C631 /* palindromeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A61D21CFF49820026C631 /* palindromeTests.m */; };
+		BB70EF961D070956007FB714 /* walkThrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = BB70EF951D070956007FB714 /* walkThrough.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		047A61CC1CFF49820026C631 /* palindromeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palindromeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047A61D11CFF49820026C631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047A61D21CFF49820026C631 /* palindromeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = palindromeTests.m; sourceTree = "<group>"; };
+		BB70EF951D070956007FB714 /* walkThrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = walkThrough.gif; path = Assets/walkThrough.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		047A61B01CFF49810026C631 = {
 			isa = PBXGroup;
 			children = (
+				BB70EF951D070956007FB714 /* walkThrough.gif */,
 				047A61BB1CFF49810026C631 /* palindrome */,
 				047A61CF1CFF49820026C631 /* palindromeTests */,
 				047A61BA1CFF49810026C631 /* Products */,
@@ -193,6 +196,7 @@
 			files = (
 				047A61C41CFF49810026C631 /* Images.xcassets in Resources */,
 				047A61C71CFF49810026C631 /* MainMenu.xib in Resources */,
+				BB70EF961D070956007FB714 /* walkThrough.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 				047A61D81CFF49820026C631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047A61D91CFF49820026C631 /* Build configuration list for PBXNativeTarget "palindromeTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				047A61DB1CFF49820026C631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
